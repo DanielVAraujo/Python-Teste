@@ -13,3 +13,8 @@ nota4_real= float (nota4)
 media = (nota1_real+nota2_real+nota3_real+nota4_real)/4
 
 print (f"Resultado da Média: {media}")
+
+if media>=6:
+    print("Parabéns, Você Foi Aprovado!")
+else:
+    print("Sinto Muito, Você Está Reprovado!")
